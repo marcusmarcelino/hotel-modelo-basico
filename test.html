@@ -13,198 +13,164 @@
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.12.0/css/mdb.min.css" rel="stylesheet">
+
     <link rel="stylesheet" id="compiled.css-css" href="https://z9t4u9f6.stackpathcdn.com/wp-content/themes/mdbootstrap4/css/compiled-4.12.0.min.css?ver=4.12.0" type="text/css" media="all">
 </head>
 <body>
-    
-        <!--<div class="container-fluid mt-2">
-            <div class="main-tabs-docs">
-                <div class="tab-content">
-                    <div class="tab-pane fade in show active" id="docsTabsOverview" role="tabpanel">
-                        <div class="row">
-                            <div class="col-lg-10 col-md-12">
-                                <section class="documentation">
-                                    <section id="introduction">
+    <header class="py-5">
+        <nav>
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Active link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled link</a>
+                </li>
+            </ul>
+        </nav>
+        
+    </header>
 
-                                    <h1 >Kevin Douglas</h1>
-                                    <p class="lead">Galegin das espanholas</p>
-
-                                    </section>
-                                    <hr class="mt-4 mb-5">
-                                </section>
-                            </div>
-
-                        </div>
-                    
-                    </div>
-                </div>
-            </div>
-        </div>-->
-        <!--Section: -->
-        <header>
-            <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #e3f2fd;">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-                    aria-expanded="false" aria-label="Toggle navigation"></button>
-                <div class="collapse navbar-collapse" id="collapsibleNavId">
-                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                            <div class="dropdown-menu" aria-labelledby="dropdownId">
-                                <a class="dropdown-item" href="#">Action 1</a>
-                                <a class="dropdown-item" href="#">Action 2</a>
-                            </div>
-                        </li>
-                    </ul>
-                    <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form>
-                </div>
-            </nav>
-        </header>
     <div class="container">
         <h1 >Kevin Douglas</h1>
         <p class="lead">Galegin das espanholas</p>
         <hr class="mt-4 mb-5">
     </div>
+
+    <div id="mdb-lightbox-ui"><!-- Root element of PhotoSwipe. Must have class pswp. -->
+        <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true" style="">
+            <!-- Background of PhotoSwipe.
+            It's a separate element, as animating opacity is faster than rgba(). -->
+            <div class="pswp__bg" style=""></div>
+            <!-- Slides wrapper with overflow:hidden. -->
+            <div class="pswp__scroll-wrap">
+
+                <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
+                <!-- don't modify these 3 pswp__item elements, data is added later on. -->
+                <div class="pswp__container" style="transform: translate3d(-3022px, 0px, 0px);">
+                    <div class="pswp__item" style="display: block; transform: translate3d(3022px, 0px, 0px);"><div class="pswp__zoom-wrap" style="transform: translate3d(733.656px, 28.7969px, 0px) scale(0.386042);"><img class="pswp__img pswp__img--placeholder" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(131).jpg" style="width: 805px; height: 537px; display: none;"><img class="pswp__img" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(131).jpg" style="width: 805px; height: 537px;"></div></div>
+                    <div class="pswp__item" style="transform: translate3d(4533px, 0px, 0px);"><div class="pswp__zoom-wrap" style="transform: translate3d(272px, 44px, 0px) scale(1);"><img class="pswp__img pswp__img--placeholder" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(123).jpg" style="width: 805px; height: 537px; display: none;"><img class="pswp__img" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(123).jpg" style="width: 805px; height: 537px;"></div></div>
+                    <div class="pswp__item" style="display: block; transform: translate3d(1511px, 0px, 0px);"><div class="pswp__zoom-wrap" style="transform: translate3d(272px, 44px, 0px) scale(1);"><img class="pswp__img" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(98).jpg" style="opacity: 1; width: 805px; height: 537px;"></div></div>
+                </div>
+
+                <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+                <div class="pswp__ui pswp__ui--fit pswp__ui--hidden">
+
+                    <div class="pswp__top-bar">
+
+                        <!--  Controls are self-explanatory. Order can be changed. -->
+
+                        <div class="pswp__counter">3 / 9</div>
+
+                        <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                        <!--<button class="pswp__button pswp__button--share" title="Share"></button>-->
+
+                        <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                        <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                        <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                        <!-- element will get class pswp__preloader--active when preloader is running -->
+                        <div class="pswp__preloader">
+                            <div class="pswp__preloader__icn">
+                                <div class="pswp__preloader__cut">
+                                    <div class="pswp__preloader__donut"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--
+                            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                                <div class="pswp__share-tooltip"></div>
+                            </div>
+                            -->
+
+                    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+                    </button>
+
+                    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+                    </button>
+
+                    <div class="pswp__caption">
+                        <div class="pswp__caption__center"></div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
     
     <div class="container">
-
+        <!--Section: Basic example-------------------------------------->
         <section id="basic-example">
-
             <!--Title-->
             <h2 class="section-heading mb-4">
                 Basic example
             </h2>
             <!--Section: Live preview-->
             <section>
-
-            <div class="row">
-                <div class="col-md-12">
-                    <div id="mdb-lightbox-ui"><!-- Root element of PhotoSwipe. Must have class pswp. -->
-                        <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true" style="">
-                            <!-- Background of PhotoSwipe.
-                            It's a separate element, as animating opacity is faster than rgba(). -->
-                            <div class="pswp__bg" style=""></div>
-                            <!-- Slides wrapper with overflow:hidden. -->
-                            <div class="pswp__scroll-wrap">
-
-                                <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
-                                <!-- don't modify these 3 pswp__item elements, data is added later on. -->
-                                <div class="pswp__container" style="transform: translate3d(-3022px, 0px, 0px);">
-                                    <div class="pswp__item" style="display: block; transform: translate3d(3022px, 0px, 0px);"><div class="pswp__zoom-wrap" style="transform: translate3d(733.656px, 28.7969px, 0px) scale(0.386042);"><img class="pswp__img pswp__img--placeholder" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(131).jpg" style="width: 805px; height: 537px; display: none;"><img class="pswp__img" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(131).jpg" style="width: 805px; height: 537px;"></div></div>
-                                    <div class="pswp__item" style="transform: translate3d(4533px, 0px, 0px);"><div class="pswp__zoom-wrap" style="transform: translate3d(272px, 44px, 0px) scale(1);"><img class="pswp__img pswp__img--placeholder" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(123).jpg" style="width: 805px; height: 537px; display: none;"><img class="pswp__img" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(123).jpg" style="width: 805px; height: 537px;"></div></div>
-                                    <div class="pswp__item" style="display: block; transform: translate3d(1511px, 0px, 0px);"><div class="pswp__zoom-wrap" style="transform: translate3d(272px, 44px, 0px) scale(1);"><img class="pswp__img" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(98).jpg" style="opacity: 1; width: 805px; height: 537px;"></div></div>
-                                </div>
-
-                                <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-                                <div class="pswp__ui pswp__ui--fit pswp__ui--hidden">
-
-                                    <div class="pswp__top-bar">
-
-                                        <!--  Controls are self-explanatory. Order can be changed. -->
-
-                                        <div class="pswp__counter">3 / 9</div>
-
-                                        <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-
-                                        <!--<button class="pswp__button pswp__button--share" title="Share"></button>-->
-
-                                        <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-
-                                        <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-
-                                        <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
-                                        <!-- element will get class pswp__preloader--active when preloader is running -->
-                                        <div class="pswp__preloader">
-                                            <div class="pswp__preloader__icn">
-                                                <div class="pswp__preloader__cut">
-                                                    <div class="pswp__preloader__donut"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!--
-                                            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                                                <div class="pswp__share-tooltip"></div>
-                                            </div>
-                                            -->
-
-                                    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-                                    </button>
-
-                                    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-                                    </button>
-
-                                    <div class="pswp__caption">
-                                        <div class="pswp__caption__center"></div>
-                                    </div>
-
-                                </div>
-
-                            </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        
+                        <div class="mdb-lightbox no-margin" data-pswp-uid="1">
+                            <figure class="col-md-4">
+                                <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(117).jpg" data-size="1600x1067">
+                                <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(117).jpg" class="img-fluid">
+                                </a>
+                            </figure>
+                            <figure class="col-md-4">
+                                <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(98).jpg" data-size="1600x1067">
+                                <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(98).jpg" class="img-fluid">
+                                </a>
+                            </figure>
+                            <figure class="col-md-4">
+                                <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(131).jpg" data-size="1600x1067">
+                                <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(131).jpg" class="img-fluid">
+                                </a>
+                            </figure>
+                            <figure class="col-md-4">
+                                <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(123).jpg" data-size="1600x1067">
+                                <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(123).jpg" class="img-fluid">
+                                </a>
+                            </figure>
+                            <figure class="col-md-4">
+                                <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(118).jpg" data-size="1600x1067">
+                                <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(118).jpg" class="img-fluid">
+                                </a>
+                            </figure>
+                            <figure class="col-md-4">
+                                <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(128).jpg" data-size="1600x1067">
+                                <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(128).jpg" class="img-fluid">
+                                </a>
+                            </figure>
+                            <figure class="col-md-4">
+                                <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(132).jpg" data-size="1600x1067">
+                                <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(132).jpg" class="img-fluid">
+                                </a>
+                            </figure>
+                            <figure class="col-md-4">
+                                <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(115).jpg" data-size="1600x1067">
+                                <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(115).jpg" class="img-fluid">
+                                </a>
+                            </figure>
+                            <figure class="col-md-4">
+                                <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(133).jpg" data-size="1600x1067">
+                                <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(133).jpg" class="img-fluid">
+                                </a>
+                            </figure>
                         </div>
                     </div>
-                <div class="mdb-lightbox no-margin" data-pswp-uid="1">
-                <figure class="col-md-4">
-                    <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(117).jpg" data-size="1600x1067">
-                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(117).jpg" class="img-fluid">
-                    </a>
-                </figure>
-                <figure class="col-md-4">
-                    <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(98).jpg" data-size="1600x1067">
-                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(98).jpg" class="img-fluid">
-                    </a>
-                </figure>
-                <figure class="col-md-4">
-                    <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(131).jpg" data-size="1600x1067">
-                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(131).jpg" class="img-fluid">
-                    </a>
-                </figure>
-                <figure class="col-md-4">
-                    <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(123).jpg" data-size="1600x1067">
-                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(123).jpg" class="img-fluid">
-                    </a>
-                </figure>
-                <figure class="col-md-4">
-                    <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(118).jpg" data-size="1600x1067">
-                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(118).jpg" class="img-fluid">
-                    </a>
-                </figure>
-                <figure class="col-md-4">
-                    <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(128).jpg" data-size="1600x1067">
-                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(128).jpg" class="img-fluid">
-                    </a>
-                </figure>
-                <figure class="col-md-4">
-                    <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(132).jpg" data-size="1600x1067">
-                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(132).jpg" class="img-fluid">
-                    </a>
-                </figure>
-                <figure class="col-md-4">
-                    <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(115).jpg" data-size="1600x1067">
-                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(115).jpg" class="img-fluid">
-                    </a>
-                </figure>
-                <figure class="col-md-4">
-                    <a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(133).jpg" data-size="1600x1067">
-                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(133).jpg" class="img-fluid">
-                    </a>
-                </figure>
                 </div>
-            </div>
-            </div>
-
             </section>
             <!--Section: Live preview-->
+        </section>
+        <!--Section: Basic example-------------------------------------->
 
         <hr class="mt-4 mb-5">
 
@@ -497,7 +463,7 @@
             </h2>
             <!-- Description -->
             <p>
-                Projects presentation Paa Editar
+                Projects presentation Para Editar
             </p>
             <!--Section: Live preview-->
             <section class="section grey py-3 lighten-3">
@@ -700,9 +666,6 @@
         <!--Section: Live preview-->
         </section>
         <!--/Section: Gallery with mixed content-->
-
-        </section>
-
     </div>
 
     <footer id="footer" class="page-footer unique-color-dark mt-4">
